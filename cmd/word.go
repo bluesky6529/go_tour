@@ -54,6 +54,7 @@ var wordCmd = &cobra.Command{
 }
 
 func init() {
-	wordCmd.Flags().StringVarP(&str, "str", "s", "", "樹入單字內容")
+	wordCmd.Flags().StringVarP(&str, "str", "s", "", "輸入單字內容(required)")
+	wordCmd.MarkFlagRequired("str")
 	wordCmd.Flags().Int8VarP(&mode, "mode", "m", 0, "輸入單字轉換模式")
 }
