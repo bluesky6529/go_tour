@@ -19,7 +19,7 @@ func ToLower(s string) string {
 func UnderscoreToUpperCamelCase(s string) string {
 	s = strings.Replace(s, "_", " ", -1)
 	s = strings.Title(s)
-	return strings.Replace(s, " ", "", -1)
+	return strings.Replace(s, " ", " ", -1)
 }
 
 //底線轉小寫駝峰單字
