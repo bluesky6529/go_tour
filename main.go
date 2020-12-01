@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/bluesky6529/go_tour/cmd"
+	"github.com/bluesky6529/golang_BasicTourPractice/cmd"
 )
 
 func main() {
