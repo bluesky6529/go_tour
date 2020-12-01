@@ -1,9 +1,11 @@
-module github.com/bluesky6529/go_tour
+module github.com/bluesky6529/golang_BasicTourPractice
 
 go 1.15
 
 require (
+	github.com/bluesky6529/go_tour v0.0.0-20201129042048-240aef645934
 	github.com/fsnotify/fsnotify v1.4.9 // indirect
+	github.com/go-programming-tour-book/tour v0.0.0-20200725090022-7a9f824862e3
 	github.com/magiconair/properties v1.8.4 // indirect
 	github.com/mitchellh/mapstructure v1.4.0 // indirect
 	github.com/pelletier/go-toml v1.8.1 // indirect
